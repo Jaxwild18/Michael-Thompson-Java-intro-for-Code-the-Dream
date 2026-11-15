@@ -56,3 +56,57 @@ a:hover {
     background-color: #0369a1;
     color: white;
 }
+nav {
+    background-color: #1e293b;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-radius: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav a {
+    background-color: transparent;
+}
+#experience ul {
+    list-style: none;
+    padding: 0;
+}
+#experience li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.experience-header h3 {
+    margin: 0;
+    color: #38bdf8;
+}
+.experience-header span {
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+#experience li p {
+    margin-bottom: 0;
+}
+#connect {
+    text-align: center;
+}
+#connect a {
+    display: inline-block;
+    margin: 8px;
+}
