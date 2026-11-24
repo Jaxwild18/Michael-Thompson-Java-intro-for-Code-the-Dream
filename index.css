@@ -1,0 +1,17 @@
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+#skills li {
+    background-color: #1e293b;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 150px;
+    max-width: 200px;
+}
